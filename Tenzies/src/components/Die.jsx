@@ -1,6 +1,6 @@
 export default function Die(props) {
     const styles={
-        backgroundColor: props.isHeld ? "orange" : "white"
+        backgroundColor: props.isHeld ? "#59E391" : "white"
     }
     return (
         <div className="die-face" style={styles} 
